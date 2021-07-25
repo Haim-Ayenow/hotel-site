@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/burj-al-arab-690768_1920.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.center{
+    text-align: center;
+    color: white;
+}
+form{
+    position:relative;
+    left: 5px; top:5px;
+    border:black solid 3px;
+    border-radius:6%;
+    display: inline-block;
+    background-color: white;
+    font-style: italic;
+    color:darkcyan;
+    padding-left: 15px;
+    text-align: center;
+    margin: auto  ;
+}
+.dropdown-item:hover{
+color: darkblue;
+background-color: azure;
+font-size:large;
+}
+nav{
+    position: relative;
+    color: cornflowerblue;
+}
+.hotels{
+    width:100vw;
+    display: flex; 
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+
+}
+
+.hotel1, .hotel2,.hotel3, .hotel4, .hotel5{
+    border:aquamarine solid 3px;
+    color:black;
+    background-color:burlywood;
+    width: 28%;
+    margin: 5px;
+       
+}
+@media screen and (max-width:768px){
+    article{
+        width: 100%;
+    }
+}
+article img{
+width: 100%;
+height: 350px;
+}
