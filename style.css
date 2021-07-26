@@ -13,9 +13,11 @@ body{
 }
 .center{
     text-align: center;
-    color: white;
+    color:white;
 }
-form{
+.form{
+    display: flex;
+    justify-content: center;
     position:relative;
     left: 5px; top:5px;
     border:black solid 3px;
@@ -26,7 +28,7 @@ form{
     color:darkcyan;
     padding-left: 15px;
     text-align: center;
-    margin: auto  ;
+    
 }
 .dropdown-item:hover{
 color: darkblue;
